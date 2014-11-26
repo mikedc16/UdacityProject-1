@@ -1,0 +1,26 @@
+body {
+	font-family: 'Lato', sans-serif;
+	color: #747704;
+	font-weight: 300;
+}
+
+.text-muted {
+	color: #bcbbbb;
+}
+.text-thin {
+	font-weight: 100;
+}
+.title-logo {
+	margin-top: 20px;
+}
+.title-super {
+	font-size: 60px;
+}
+.hr-style {
+	 border: none;
+    /* top    */ border-top: 2px solid #ccc;
+    /* middle */ background-color: #ddd; color: #ddd;
+    /* bottom */ border-bottom: 2px solid #eee;
+    height: 2px;
+    *height: 6px; /* IE6+7 need the total height */
+}

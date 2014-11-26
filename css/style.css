@@ -1,0 +1,36 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+*{
+	font-weight: 300;
+}
+*{
+	-webkit-boxsizing: border-box;
+	-moz-boxsizing: border-box;
+	-ms-boxsizing: border-box;
+	boxsizing: border-box;
+}
+.title {
+	background-color: #33BEBE;
+	color: #FFFFFF;
+	margin: 20px;
+	padding-left: 20px;
+	padding-top: 40px;
+	max-width: 100%;
+	font-size: 48px;
+}
+.app {
+	display: -webkit-flex;
+	display: flex;
+}
+.image {
+	max-width: 25%;
+	margin: 20px;
+	flex-wrap: wrap;
+}
+.description {
+	max-width: 66%;
+	color: #7C8B88;
+	margin: 20px;
+	font-size: 30px;
+}
